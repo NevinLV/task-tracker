@@ -1,0 +1,9 @@
+backend/.venv/
+backend/uploads/
+backend/.env
+frontend/node_modules/
+frontend/dist/
+frontend/auto-imports.d.ts
+frontend/components.d.ts
+*.pyc
+__pycache__/

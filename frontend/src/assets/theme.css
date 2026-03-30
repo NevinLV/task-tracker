@@ -1,0 +1,76 @@
+/* Style guide: Rich Black #0D0F11, Dark Green #022221, Bangladesh #03624C,
+   Mountain Meadow #2CC295, Caribbean #00E891, Anti-Flash White #F1F1F6,
+   Pine, Basil, Forest, Frog, Mint, Stone, Pistachio — см. lib/statuses.ts
+   Шрифт: DM Sans (подключён в index.html). Axiforma — замените локальным @font-face при лицензии. */
+
+@layer base {
+  :root {
+    font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+    --font-display: "DM Sans", system-ui, sans-serif;
+
+    --ui-color-primary-50: #e9fff7;
+    --ui-color-primary-100: #c8ffec;
+    --ui-color-primary-200: #8cf0cf;
+    --ui-color-primary-300: #2cc295;
+    --ui-color-primary-400: #1ae8a8;
+    --ui-color-primary-500: #00e891;
+    --ui-color-primary-600: #03624c;
+    --ui-color-primary-700: #08453a;
+    --ui-color-primary-800: #022221;
+    --ui-color-primary-900: #022221;
+    --ui-color-primary-950: #0d0f11;
+
+    --ui-color-neutral-50: #f1f1f6;
+    --ui-color-neutral-100: #e4e8e7;
+    --ui-color-neutral-200: #aacbc4;
+    --ui-color-neutral-300: #8fb0aa;
+    --ui-color-neutral-400: #707c7d;
+    --ui-color-neutral-500: #5c6869;
+    --ui-color-neutral-600: #4a5455;
+    --ui-color-neutral-700: #363f3f;
+    --ui-color-neutral-800: #022221;
+    --ui-color-neutral-900: #0d0f11;
+    --ui-color-neutral-950: #0d0f11;
+
+    --ui-primary: var(--ui-color-primary-500);
+
+    --ui-text-dimmed: #707c7d;
+    --ui-text-muted: #5c6869;
+    --ui-text-toned: #08453a;
+    --ui-text: #022221;
+    --ui-text-highlighted: #0d0f11;
+    --ui-text-inverted: #f1f1f6;
+    --ui-bg: #f1f1f6;
+    --ui-bg-muted: #e8ebe9;
+    --ui-bg-elevated: #ffffff;
+    --ui-bg-accented: #aacbc4;
+    --ui-bg-inverted: #022221;
+    --ui-border: #aacbc4;
+    --ui-border-muted: #c5d9d3;
+    --ui-border-accented: #2f958c;
+    --ui-border-inverted: #022221;
+    --ui-radius: 0.5rem;
+  }
+
+  html {
+    font-family: var(--font-display);
+  }
+
+  .dark {
+    --ui-text-dimmed: #707c7d;
+    --ui-text-muted: #aacbc4;
+    --ui-text-toned: #2cc295;
+    --ui-text: #f1f1f6;
+    --ui-text-highlighted: #ffffff;
+    --ui-text-inverted: #0d0f11;
+    --ui-bg: #0d0f11;
+    --ui-bg-muted: #022221;
+    --ui-bg-elevated: #022221;
+    --ui-bg-accented: #063e13;
+    --ui-bg-inverted: #f1f1f6;
+    --ui-border: #08453a;
+    --ui-border-muted: #095544;
+    --ui-border-accented: #17876d;
+    --ui-border-inverted: #f1f1f6;
+  }
+}
