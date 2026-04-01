@@ -21,7 +21,7 @@ export function useAuth() {
       user.value = null
       return
     }
-    const res = await fetch('/api/auth/me', {
+    const res = await fetch('https://task-tracker-5nzw.onrender.com/api/auth/me', {
       headers: { Authorization: `Bearer ${token.value}` },
     })
     if (!res.ok) {
